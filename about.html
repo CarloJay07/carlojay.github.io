@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container">
+        
+        <a class="text-bold  text-light mx-2  navbar-brand"  href="index.html"> <img src="pictures/carlog.jpg" alt="carlog" width="50" height="50" class="rounded-circle "> |</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="btn btn-dark   btn-sm nav-link" href="introduction.html">Introduction</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-dark mx-2 btn-sm nav-link" href="about.html">About me</a>
+                </li>
+              
+                <li class="nav-item">
+                    <a class="btn btn-dark mx-2 btn-sm nav-link" href="contact.html">Contact me @</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-dark mx-2 btn-sm nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+        <div class="container">
+<div class="row">
+
+
+    
+    <div class="col2 col-lg-12 col-sm-12 col-md-12">
+        <h1 class="text-light text-center">My Family Members</h1>
+        <div class="tree">
+            <ul>
+                <li>
+                    <button class="picb">
+                                <img src="pictures/father.jpg" alt="" class="icon" data-bs-toggle="modal" data-bs-target="#Father">
+                            </button>
+                    <h5 class="text-light">Father</h5>
+                    <ul>
+                        <li>
+                            <button class="picb">
+                                <img src="pictures/child1.jpg" alt="" class="icon" data-bs-toggle="modal" data-bs-target="#Child1">
+                            </button>
+
+                            <h5 class="text-light">Child</h5>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="picb">
+                        <img src="pictures/mother.jpg" alt="" class="icon" data-bs-toggle="modal" data-bs-target="#Mother">
+
+                </button>
+                    <h5 class="text-light">Mother</h5>
+                    <ul>
+                        <li>
+                            <button class="picb">
+                                <img src="pictures/carlo.jpg" alt="" class="icon" data-bs-toggle="modal" data-bs-target="#Child2">
+                            </button>
+                            <h5 class="text-light">Child</h5>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="modal fade" id="Child1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Child</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form >
+                <label for=""> Name</label>
+                <input type="text"   class="form-control" value="John Kenneth Pastrana Alberto" readonly>
+                <label for=""> Birthday</label>
+                <input type="text"   class="form-control" value="October 24, 1996" readonly>
+                <label for=""> Position in Family</label>
+                <input type="text"   class="form-control" value="Eldest Sibling" readonly>
+                <label for=""> Address </label>
+                <input type="text"   class="form-control" value="Alagao, San Ildefonso, Bulacan" readonly >
+               
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="Mother" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Parent</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form >
+                <label for=""> Name</label>
+                <input type="text"   class="form-control" value="Helen Pastrana Alberto" readonly>
+                <label for=""> Birthday</label>
+                <input type="text"   class="form-control" value="October 19, 1968" readonly>
+                <label for=""> Position in Family</label>
+                <input type="text"   class="form-control" value="Mother" readonly>
+                <label for=""> Address </label>
+                <input type="text"   class="form-control" value="Alagao, San Ildefonso, Bulacan" readonly >
+               
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="Child2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Child</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form >
+                <label for=""> Name</label>
+                <input type="text"   class="form-control" value="Carlo Jay Pastrana Alberto" readonly>
+                <label for=""> Birthday</label>
+                <input type="text"   class="form-control" value="October 07, 2000" readonly >
+                <label for=""> Position in Family</label>
+                <input type="text"   class="form-control" value="Youngest" readonly >
+                <label for=""> Address </label>
+                <input type="text"   class="form-control" value="Alagao, San Ildefonso, Bulacan" readonly >
+               
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="Father" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Parent</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form >
+                <label for=""> Name</label>
+                <input type="text"   class="form-control" value="Nixon Intacto" readonly>
+                <label for=""> Birthday</label>
+                <input type="text"   class="form-control" value="May 9, 1969" readonly >
+                <label for=""> Position in Family</label>
+                <input type="text"   class="form-control" value="Father" readonly >
+                <label for=""> Address </label>
+                <input type="text"   class="form-control" value="Alagao, San Ildefonso, Bulacan" readonly >
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="container">
+<div class="row">
+    <div class="col">
+      <h1 class="text-center text-light mt-5"> EDUCATIONAL BACKGROUND</h1>
+      <table class="table text-light bg-success">
+        <thead>
+          <tr>
+            
+            <th scope="col">Picture of School</th>
+            <th scope="col">Name of School</th>
+            <th scope="col">School Address</th>
+            <th scope="col">Educational Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr> 
+            <th scope="row"><img src="pictures/cs.jpeg" alt=""></th>
+            <td  class="text-center ">Pinaod Central School</td>
+            <td class="text-center">Bagong Baryo, Pinaod , San Ildefonso, Bulacan</td>
+            <td class="text-center">Grade 1 - 2</td>
+          </tr>
+          <tr>
+            <th scope="row"><img src="pictures/mdsi.jpeg" alt=""></th>
+            <td class="text-center">Montessori De San Ildefonso</td>
+            <td class="text-center">Quijano St. San Juan, San Ildefonso, Bulacan</td>
+            <td class="text-center">Grade 3-12</td>
+          </tr>
+          <tr>
+            <th scope="row"><img src="pictures/bulsu.jpeg" alt=""></th>
+            <td class="text-center">Bulacan State University</td>
+            <td class="text-center">Guinhawa, Macarthur Highway Malolos City, Bulacan</td>
+            <td> 1st Year College - 2nd Year College</td>
+          </tr>
+          <tr>
+            <th scope="row"><img src="pictures/basc.jpeg" alt=""></th>
+            <td class="text-center">Bulacan Agricultural State College</td>
+            <td class="text-center">Pinaod, San Ildefonso, Bulacan</td>
+            <td>Current</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+</div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <h1 class="text-success text-center"> Hobbies</h1>
+        <h1 class="text-info text-center"> ONLINE GAMES</h1>
+        <div class="col3 col-lg-4 col-sm-4 col-md-4 ">
+          
+          <div class="card" style="width: 18rem;">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="pictures/cabalph.jpeg" class="cardpic" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="pictures/dota2.jpeg" class="cardpic" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="pictures/ml.jpeg" class="cardpic" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="pictures/coc.jpeg" class="cardpic" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Here are some of the games im playing.</p>
+            </div>
+          </div>
+        </div>
+        <div class="colngp col-lg-8 col-md-8 col-sm-8   text-center ">
+            I am a gamer at heart. I play many online games such as Cabal Online Ph, Dota 2, Mobile Legend, and Clash of Clans.Online games are not just a simple form of entertainment for me; this is where I've found friends whom I can trust and share
+            my problems with.      
+          
+      </div>
+<div class="col-lg-12 mt-5">
+  <div class="card">
+    <div class="card-body">
+      <div id="carouselExamples" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="pictures/Cabal(231116-0810-Ver437-0000).jpg" class="cardpic2" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pictures/Cabal(231116-0811-Ver437-0000).jpg" class="cardpic2" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pictures/Cabal(231116-0812-Ver437-0000).jpg" class="cardpic2" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pictures/Cabal(231116-0813-Ver437-0000).jpg" class="cardpic2" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExamples" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExamples" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+  
+  </div>
+</div>
+<h1 class="text-center text-bold text-primary">CABAL ONLINE PH</h1>
+<h5 class="text-center text-bold text-light"> CABAL Online is a free-to-play 3D third-person MMORPG set on the continent of Nevareth, a thousand years after the Apocalypse that destroyed the land and the CABAL. Players must now face the new waves of evil invading Nevareth in an attempt to stop the land from being destroyed again.</h5>
+    </div>
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="card-body">
+          <div id="carouselExamples2" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="pictures/Screenshot_2023-11-16-21-13-54-73_22e4250240c136c826b8a3b1264b092d.jpg" class="cardpic3" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pictures/Screenshot_2023-11-16-21-14-36-64_22e4250240c136c826b8a3b1264b092d.jpg" class="cardpic3" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pictures/Screenshot_2023-11-16-21-15-06-60_22e4250240c136c826b8a3b1264b092d.jpg" class="cardpic3" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pictures/Screenshot_2023-11-16-21-16-00-20_22e4250240c136c826b8a3b1264b092d.jpg" class="cardpic3" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExamples2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExamples2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+       
+      </div>
+      
+    </div>
+    <h1 class="text-center text-bold text-primary">MOBILE LEGEND</h1>
+        <h5 class="text-center text-bold text-light"> Mobile Legends: Bang Bang is a multiplayer online battle arena (MOBA) game designed for mobile phones. The game is free-to-play and is only monetized through in-game purchases like characters and skins. Each player can control a selectable character, called a Hero, with unique abilities and traits.</h5>
+    
+</div>
+<div class="col-lg-12">
+  <div class="card">
+    <div class="card-body">
+      <div id="carouselExamples4" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="pictures/Screenshot_2023-11-16-21-32-41-61_b864ea0b534de5941fd13c5c04397e2b.jpg" class="cardpic3" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pictures/Screenshot_2023-11-16-21-33-11-41_b864ea0b534de5941fd13c5c04397e2b.jpg" class="cardpic3" alt="...">
+          </div>
+      
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExamples4" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExamples4" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+   
+  </div>
+  
+</div>
+<h1 class="text-center text-bold text-primary">CLASH OF CLANS</h1>
+    <h5 class="text-center text-bold text-light">Clash of Clans is an online multiplayer strategy game published by Supercell. You can build your own community, train troops and attack other players. You can join a clan of players or start your own clan and invite friends. You can interact with other players through in-game messaging and voice chat.</h5>
+
+</div>
+<h1 class="text-center text-success"> NATURE TRIP/ HANGOUT WITH FRIENDS</h1>
+<div class="container">
+  <div class="row">
+<div class="col-lg-5 col-md-5 col-sm-5 mt-5">
+  <div class="card">
+    <div class="card-body">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="pictures/antipolo.jpg" class="antipolo" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>ANTIPOLO</h5>
+                    <p>Blue Mansion with Cabal Friends.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="pictures/a2.jpg" class="antipolo" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>ANTIPOLO</h5>
+                    <p>Blue Mansion with Cabal Friends.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="pictures/a3.jpg" class="antipolo" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>ANTIPOLO</h5>
+                    <p>Blue mansion pool.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="pictures/a4.jpg" class="antipolo" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>ANTIPOLO</h5>
+                    <p>Blue mansion pool.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    </div>
+  </div>
+</div>
+<div class="mbcol col-lg-5 col-md-5 col-sm-5 mt-5">
+  <div class="card">
+    <div class="card-body">
+      <div id="carouselExampleCaptions2" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="pictures/mb.jpg" class="antipolo" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>MOUNT BRIGINO</h5>
+                    <p>MT. BRIGINO with Cousins.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="pictures/c.jpg" class="antipolo" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>MOUNT BRIGINO</h5>
+                    <p>ME</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <h1 class="text-warning text-center mt-5 ">MY FAVORITE ANIME</h1>
+    <div class="col-lg-4 col-sm-4 col-md-4 mt-5">
+      
+      <div class="card">
+        <div class="card-body">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pictures/sao.jpeg" class="anime" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>SWORD ART ONLINE</h5>
+                      
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-4 col-md-4 mt-5">
+      
+      <div class="card">
+        <div class="card-body">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pictures/GUNDAM.JPEG" class="anime" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-danger text-center">GUNDAM SERIES</h5>
+                      
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-4 col-md-4 mt-5">
+      
+      <div class="card">
+        <div class="card-body">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pictures/code.jpeg" class="anime" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>CODE GEASS</h5>
+                      
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+</div>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+<style>
+  .anime{
+    width: 100%;
+    height: 100%;
+  }
+  .mbcol{
+    margin-left: auto;
+  }
+  .antipolo {
+    height: 100%;
+    width: 100%;
+  }
+    .col2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-light {
+  color: #fff;
+}
+
+.icon {
+  width: 150px;
+  height: 150px; 
+  border-radius: 50%; 
+  border: 2px solid #000; 
+}
+.tree ul {
+	padding-top: 20px; position: relative;
+	
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+.tree li {
+	float: left; text-align: center;
+	list-style-type: none;
+	position: relative;
+	padding: 20px 5px 0 5px;
+	
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+
+
+.tree li::before, .tree li::after{
+	content: '';
+	position: absolute; top: 0; right: 50%;
+	border-top: 1px solid #ccc;
+	width: 50%; height: 20px;
+}
+.tree li::after{
+	right: auto; left: 50%;
+	border-left: 1px solid #ccc;
+}
+
+
+.tree li:only-child::after, .tree li:only-child::before {
+	display: none;
+}
+
+
+.tree li:only-child{ padding-top: 0;}
+
+
+.tree li:first-child::before, .tree li:last-child::after{
+	border: 0 none;
+}
+
+.tree li:last-child::before{
+	border-right: 1px solid #ccc;
+	border-radius: 0 5px 0 0;
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after{
+	border-radius: 5px 0 0 0;
+	-webkit-border-radius: 5px 0 0 0;
+	-moz-border-radius: 5px 0 0 0;
+}
+
+
+.tree ul ul::before{
+	content: '';
+	position: absolute; top: 0; left: 50%;
+	border-left: 1px solid #ccc;
+	width: 0; height: 20px;
+}
+
+.tree li a{
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #666;
+	font-family: arial, verdana, tahoma;
+	font-size: 11px;
+	display: inline-block;
+	
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+
+.tree li a:hover, .tree li a:hover+ul li a {
+	background: #c8e4f8; color: #000; border: 1px solid #94a0b4;
+}
+
+.tree li a:hover+ul li::after, 
+.tree li a:hover+ul li::before, 
+.tree li a:hover+ul::before, 
+.tree li a:hover+ul ul::before{
+	border-color:  #94a0b4;
+}
+.picb{
+   border-radius: 50%;
+   height: 150px;
+   width: 150px;
+   border: none; 
+   padding: 0; 
+   margin: 0; 
+
+}
+th, td {
+  border: 2px solid black;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+table{
+  border: 3px solid black;
+}
+.cardpic{
+  height: 280px;
+  width: 100%;
+}
+.colngp{
+  height: 20rem;
+  margin-top: 5rem;
+ font-size: large;
+ background-color: paleturquoise;
+}
+.col3{
+  margin-top: 4.5rem;
+}
+.cardpic2{
+  height: 100%;
+  width: 100%;
+}
+.cardpic3{
+  height: 100%;
+  width: 100%;
+}
+</style>
+</html>
